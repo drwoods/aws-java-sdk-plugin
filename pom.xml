@@ -5,11 +5,11 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.447</version>
+    <version>1.642</version>
     <relativePath />
   </parent>
   <artifactId>aws-java-sdk</artifactId>
-  <version>1.10.71-SNAPSHOT</version>
+  <version>1.10.74.SAS</version>
   <packaging>hpi</packaging>
 
   <name>Amazon Web Services SDK</name>
@@ -50,7 +50,7 @@
     <dependency>
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-java-sdk</artifactId>
-      <version>1.10.71</version>
+      <version>1.10.74</version>
       <exclusions>
         <exclusion>
           <!-- Included in core -->
